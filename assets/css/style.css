@@ -1,0 +1,43 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 2.3125rem;
+    font-weight: 400;
+}
+
+.logo{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+.bg-color{
+    background: #373a3c;
+}
+
+.bgnews-color{
+    background: #dc3545;
+}
+
+.cambiar-color{
+    color: black;
+}
+
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #373a3c;
+}
+
+.carousel-indicators{
+    top: 14rem;
+}
+
+@media (max-width: 320px) {
+    header{
+        text-align: center;    
+    }
+}
